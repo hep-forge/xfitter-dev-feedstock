@@ -12,7 +12,6 @@ package:
 
 requirements:
   run:
-    - xfitter
     - lapack
     - gsl
     - qcdnum
