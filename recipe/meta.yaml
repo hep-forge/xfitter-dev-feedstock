@@ -12,6 +12,7 @@ package:
 
 requirements:
   run:
+    - root {{ root }}.*
     - lapack
     - gsl
     - qcdnum
@@ -21,7 +22,6 @@ requirements:
     - apfel
     - apfelxx
     - ceres-solver
-    - root
     - hathor
     - dyturbo
     - yaml
