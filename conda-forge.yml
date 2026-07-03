@@ -19,3 +19,5 @@ provider:
   osx_64: None
   win_64: None
   linux_ppc64le: None
+skip_render:
+  - README.md
