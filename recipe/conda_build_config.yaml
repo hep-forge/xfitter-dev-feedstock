@@ -20,14 +20,14 @@ c_stdlib:
 c_stdlib_version:
   - 2.17    # [linux]
 c_compiler:            # [linux]
-  - gcc
+  - gcc                      # [linux]
 cxx_compiler:          # [linux]
-  - gxx
+  - gxx                      # [linux]
 c_compiler_version:    # [linux]
-  - 14
+  - 14                       # [linux]
 cxx_compiler_version:  # [linux]
-  - 14
+  - 14                       # [linux]
 libgcc_version:        # [linux]
-  - 14.*
+  - 14.*                     # [linux]
 libstdcxx_version:     # [linux]
-  - 14.*
+  - 14.*                     # [linux]
