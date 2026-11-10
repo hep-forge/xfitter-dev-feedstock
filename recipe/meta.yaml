@@ -23,7 +23,7 @@ build:
 
 requirements:
   run:
-    - root {{ root }}.*
+    - {{ pin_compatible('root_base', exact=True) }}
     - lapack
     - gsl
     - qcdnum
